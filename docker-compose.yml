@@ -44,7 +44,7 @@ services:
       - php-fpm
 
   php-fpm:
-    image: listados/site_360:1.0.8
+    image: listados/site_360:homolog-latest
     working_dir: /application
     container_name: 'php_site_360'
     volumes:
